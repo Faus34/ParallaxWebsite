@@ -37,7 +37,7 @@ header::after{
     right: 0;
     max-height: 100%;
     width: 100%;
-    z-index: 20;
+    z-index: 21;
 }
 
 #firstlayer{
@@ -45,7 +45,7 @@ header::after{
     right: 0;
     max-height: 100%;
     width: 100%;
-    z-index: 19;
+    z-index: 22;
 }
 
 #secondlayer{
@@ -53,7 +53,7 @@ header::after{
     right: 0;
     max-height: 100%;
     width: 100%;
-    z-index: 21;
+    z-index: 23;
 }
 
 nav{
@@ -157,6 +157,11 @@ section .containet > *{
 
 .content{
     color: #fff;
+    transform: translateY(-50px);
+}
+
+.imgContainer { 
+    transform: translateY(50px);
 }
 
 .tittle{
@@ -184,4 +189,26 @@ section .containet > *{
     left: 0;
     z-index: 20;
     background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity{
+    opacity: 0;
+}
+
+@media(max-width: 850px){
+    section .container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 600px){
+    .big-tittle{
+        font-size: 3rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .tittle{
+        font-size: 1.2rem;
+    }
 }
