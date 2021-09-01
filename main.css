@@ -37,7 +37,7 @@ header::after{
     right: 0;
     max-height: 100%;
     width: 100%;
-    z-index: 21;
+    z-index: 22;
 }
 
 #firstlayer{
@@ -162,6 +162,7 @@ section .containet > *{
 
 .imgContainer { 
     transform: translateY(50px);
+    /* opacity: 0; */
 }
 
 .tittle{
@@ -191,9 +192,9 @@ section .containet > *{
     background: linear-gradient(to top, #151515, transparent);
 }
 
-.opacity{
+/* .opacity{
     opacity: 0;
-}
+} */
 
 @media(max-width: 850px){
     section .container{
