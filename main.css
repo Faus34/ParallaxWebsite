@@ -37,7 +37,7 @@ header::after{
     right: 0;
     max-height: 100%;
     width: 100%;
-    z-index: 22;
+    z-index: 21;
 }
 
 #firstlayer{
@@ -49,6 +49,14 @@ header::after{
 }
 
 #secondlayer{
+    position:absolute;
+    right: 0;
+    max-height: 100%;
+    width: 100%;
+    z-index: 23;
+}
+
+#thirdlayer{
     position:absolute;
     right: 0;
     max-height: 100%;
