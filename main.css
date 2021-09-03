@@ -151,7 +151,7 @@ section img{
     width: 100%;
 }
 
-section .containet > *{
+section .container > *{
     margin: 2rem;
 }
 
@@ -162,7 +162,7 @@ section .containet > *{
 
 .imgContainer { 
     transform: translateY(50px);
-    /* opacity: 0; */
+    opacity: 1; 
 }
 
 .tittle{
@@ -192,9 +192,9 @@ section .containet > *{
     background: linear-gradient(to top, #151515, transparent);
 }
 
-/* .opacity{
-    opacity: 0;
-} */
+.opacity{
+    opacity: 1;
+} 
 
 @media(max-width: 850px){
     section .container{
