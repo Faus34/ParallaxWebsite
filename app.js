@@ -1,6 +1,7 @@
 const background = document.getElementById("background");
 const firstlayer = document.getElementById("firstlayer");
 const secondlayer = document.getElementById("secondlayer");
+const thirdlayer = document.getElementById("thirdlayer");
 
 const header = document.querySelector('header');
 const big_tittle = document.querySelector('.big-tittle');
@@ -22,9 +23,10 @@ window.addEventListener('scroll', ()=> {
     let scroll = window.pageYOffset; 
     let sectionY =  section.getBoundingClientRect();
         // we move each element based on the result of multiplying scroll value by speed value;
-        background.style.transform = `translateY(${scroll * 0.2}px)`;
-        firstlayer.style.transform = `translateY(${scroll * 0.3}px)`;
-        secondlayer.style.transform = `translateY(${scroll * 0.5}px)`;
+        background.style.transform = `translateY(${scroll * 0.4}px)`;
+        firstlayer.style.transform = `translateY(${scroll * 0.2}px)`;
+        secondlayer.style.transform = `translateY(${scroll * 0.3}px)`;
+        thirdlayer.style.transform = `translateY(${scroll * 0.3}px)`;
 
         image_container.style.opacity = scroll / (sectionY.top + section_height); 
         div_container.style.opacity = scroll / (sectionY.top + section_height); 
